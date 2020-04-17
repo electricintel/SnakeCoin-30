@@ -1,6 +1,6 @@
 from nextBlock import *
 from initBlock import *
-
+# 最简单的区块链
 # Create the blockchain and add the genesis block
 block_chain = [create_genesis_block()]
 previous_block = block_chain[0]
